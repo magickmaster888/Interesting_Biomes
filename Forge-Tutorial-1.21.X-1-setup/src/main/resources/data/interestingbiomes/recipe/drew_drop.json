@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "key": {
+    "A": {
+      "item": "interestingbiomes:stinger"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result":{
+    "count": 3,
+    "id": "interestingbiomes:dew_drop"
+  }
+}

@@ -2,5 +2,8 @@
   "item.interestingbiomes.stinger": "Stinger",
   "item.interestingbiomes.furscrap": "Fur Scrap",
 
-  "block.interestingbiomes.dew_drop": "Dew Drop"
+  "block.interestingbiomes.dew_drop": "Dew Drop",
+  "creativetab.interestingbiomes.interesting_biomes": "2",
+  "creativetab.interestingbiomes.interesting_biomes": "english",
+  "creativetab.interestingbiomes.interesting_biomes": "Interesting Biomes"
 }
