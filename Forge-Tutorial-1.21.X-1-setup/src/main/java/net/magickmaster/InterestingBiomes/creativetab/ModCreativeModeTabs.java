@@ -22,8 +22,11 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.interestingbiomes.interesting_biomes"))
                     .displayItems((itemDisplayParameters, output)->{
                         output.accept(ModItems.Stinger.get());
+
                         output.accept(ModBlocks.Dew_Drop.get());
+
                         output.accept(ModItems.Fur_Scrap.get());
+                        output.accept(ModItems.Fur_Cloak.get());
 
                     }).build());
 
