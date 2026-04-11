@@ -20,7 +20,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block>Dew_Drop = registerBlock("dew_drop",
             ()-> new Block(BlockBehaviour.Properties.of()
-                    .instabreak().sound(SoundType.AMETHYST)));
+                    .instabreak().sound(SoundType.AMETHYST).friction(0.3f).));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T>block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
